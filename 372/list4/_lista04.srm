@@ -1,0 +1,32 @@
+#!/bin/bash
+# === CAP372 lista 04 - 2019-09-01 ===
+#SBATCH --nodes=1           # utilizar um único nó
+#SBATCH --ntasks-per-node=8 # ntasks(max tasks) invoked on each node
+#SBATCH -p cpu_dev          # Fila (partition) a ser utilizada
+#SBATCH -J lista04          # Nome job
+#SBATCH --time=00:05:00     # Altera o tempo limite para 5 minutos
+#SBATCH --exclusive         # Utilização exclusiva do nó durante a execução do job
+
+# Exibe os nós alocados para o Job
+echo $SLURM_JOB_NODELIST
+nodeset -e $SLURM_JOB_NODELIST
+cd $SLURM_SUBMIT_DIR
+
+# Config. compiladores p/ suite de compiladores da Intel e MPI compilado com Intel
+module load intel_psxe/2019
+
+# Configura o executável
+EXEC1=/scratch/padinpe/xxxxxxx.xxxxxxx/intetrap
+EXEC2=/scratch/padinpe/xxxxxxx.xxxxxxx/intetrapprl
+
+# exibe informações sobre o executável (opcional)
+# /usr/bin/ldd $EXEC1
+# /usr/bin/ldd $EXEC2
+
+# testa antes de rodar
+# echo $SLURM_NTASKS $EXEC1
+# echo $SLURM_NTASKS $EXEC2
+
+# roda
+srun -n $SLURM_NTASKS $EXEC1
+srun -n $SLURM_NTASKS $EXEC2

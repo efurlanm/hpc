@@ -1,0 +1,22 @@
+== CAP399/2019 - Lista 02 - Exerc 02 - Item (a) ==
+Número total de tarefas (ntasks): 8
+sdumont1069
+	linux-vdso.so.1 =>  (0x00007ffc2618e000)
+	libm.so.6 => /usr/lib64/libm.so.6 (0x00002abd61b97000)
+	libmpifort.so.12 => /opt/intel/parallel_studio_xe_2019/compilers_and_libraries_2019.3.199/linux/mpi/intel64/lib/libmpifort.so.12 (0x00002abd61e99000)
+	libmpi.so.12 => /opt/intel/parallel_studio_xe_2019/compilers_and_libraries_2019.3.199/linux/mpi/intel64/lib/release/libmpi.so.12 (0x00002abd62257000)
+	libdl.so.2 => /usr/lib64/libdl.so.2 (0x00002abd633e5000)
+	librt.so.1 => /usr/lib64/librt.so.1 (0x00002abd635e9000)
+	libpthread.so.0 => /usr/lib64/libpthread.so.0 (0x00002abd637f1000)
+	libgcc_s.so.1 => /usr/lib64/libgcc_s.so.1 (0x00002abd63a0d000)
+	libc.so.6 => /usr/lib64/libc.so.6 (0x00002abd63c23000)
+	/lib64/ld-linux-x86-64.so.2 (0x00002abd61973000)
+	libfabric.so.1 => /opt/intel/parallel_studio_xe_2019/compilers_and_libraries_2019.3.199/linux/mpi/intel64/libfabric/lib/libfabric.so.1 (0x00002abd63ff0000)
+[0] All done: x=0.000577
+[1] All done: x=0.000408
+[2] All done: x=0.000333
+[3] All done: x=0.000289
+[4] All done: x=0.000258
+[5] All done: x=0.000236
+[6] All done: x=0.000218
+[7] All done: x=0.000204

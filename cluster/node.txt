@@ -1,0 +1,10 @@
+Nó | Core | Thread | Processador | Instruções | Freq | Cache | RAM | GPU
+:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|-
+node01   | 2  | 4 | Core i7-7500U | avx2, fma3, sse4.2 | 3.5 GHz | 4 MB L3 | 16 GB | NVIDIA GeForce 940MX 4 GB
+node02   | 4  | 8 | Core i7-2630QM | avx, sse4.2 | 2.6 GHz | 6 MB L3 | 8 GB
+node03   | 4  | 8 | Core i7-2630QM | avx, sse4.2 | 2.6 GHz | 6 MB L3 | 6 GB
+node04   | 2  | 2 | Core2Duo T7200 | ssse3 | 2 GHz | 4 MB L2 | 2 GB
+node05   | 2  | 2 | Core2Duo T7200 | ssse3 | 2 GHz | 4 MB L2 | 2 GB
+node06   | 2  | 2 | Core2Duo T7250 | ssse3 | 2 GHz | 2 MB L2 | 3 GB
+node07   | 2  | 4 | Core i7-3520M | avx, sse4.2 | 3.6 GHz | 4 MB L3 | 8 GB | NVIDIA GeForce GT 635M 2 GB
+master   | 1  | 2 | Atom N450 | ssse3 | 1.66 GHz | 512 kB L2 | 2 GB | (nó de login)

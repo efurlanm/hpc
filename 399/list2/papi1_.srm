@@ -1,0 +1,40 @@
+#!/bin/bash
+# Script baseado em:
+#   "6.3. Jobs paralelos (threads/OpenMP)
+#   Forma Geral de um Script"
+#   <https://sdumont.lncc.br/support_manual.php?pg=support>
+# Uso:
+#   $ sbatch papi1.srm          (roda em prj)(anotar o my_job_no)
+#   $ squeue --job my_job_no    (verifica jobs)
+#   A saída "slurm-my_job_no.out" aparece em "scracth"
+
+#SBATCH --nodes=1               #Numero de Nós  (a)
+#SBATCH --ntasks-per-node=1     #Numero de tarefas por Nó  (b)
+#SBATCH --ntasks=1              #Numero total de tarefas MPI  (a x b)
+#SBATCH -p cpu_dev              #Fila (partition) a ser utilizada
+#SBATCH -J pname                #Nome do job
+#SBATCH --time=00:02:00         #Tempo limite
+#SBATCH --exclusive             #Utilizacao exclusiva dos nós durante o job
+
+echo '== CAP399/2019 - Lista 02 - Exerc 01 - Item (a) =='
+echo 'Número total de tarefas (ntasks):' $SLURM_NTASKS
+
+nodeset -e $SLURM_JOB_NODELIST
+cd $SLURM_SUBMIT_DIR
+
+#Configura
+module load papi/5.5.1.0
+module load papi-devel/5.5.1.0
+module load intel_psxe/2019
+
+#Configura o executavel
+EXEC=/scratch/padinpe/____/papiex
+
+#exibe informações sobre o executável (opcional)
+#echo /usr/bin/ldd $EXEC
+/usr/bin/ldd $EXEC
+
+#Dispara a execução
+#   $SLURM_NTASKS : Same as --ntasks
+# echo srun -n $SLURM_NTASKS $EXEC
+srun -n $SLURM_NTASKS $EXEC

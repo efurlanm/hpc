@@ -1,0 +1,27 @@
+#!/bin/bash
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH -p cpu_dev          #Fila (partition) a ser utilizada
+#SBATCH -J a1.out           #Nome job
+#SBATCH --time=00:05:00     #Altera o tempo limite para 5 minutos
+#SBATCH --exclusive         #Utilização exclusiva do nó durante a execução do job
+
+#Exibe os nós alocados para o Job
+echo $SLURM_JOB_NODELIST
+nodeset -e $SLURM_JOB_NODELIST
+cd $SLURM_SUBMIT_DIR
+
+#Configura o executavel (e analogamente para EXEC2 e EXEC3)
+
+EXEC1=/scratch/padinpe/xxxxxxx.xxxxxxx/a1.out
+EXEC2=/scratch/padinpe/xxxxxxx.xxxxxxx/a2.out
+EXEC2=/scratch/padinpe/xxxxxxx.xxxxxxx/a2.out
+
+#exibe informações sobre o executável (e analogamente para EXEC2 e EXEC3)
+/usr/bin/ldd $EXEC1
+/usr/bin/ldd $EXEC1
+/usr/bin/ldd $EXEC1
+
+srun -n $SLURM_NTASKS $EXEC1
+srun -n $SLURM_NTASKS $EXEC2
+srun -n $SLURM_NTASKS $EXEC3
