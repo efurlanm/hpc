@@ -1,4 +1,4 @@
-# My HPC annotations
+# My personal notes on HPC
 
 Notes, coures, useful links, miscellaneous documents
 
