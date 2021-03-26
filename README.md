@@ -8,6 +8,6 @@ Notes, coures, useful links, miscellaneous documents
 
 - cluster - My home cluster
 
-- fft - Various implementations of the FFT
+- fft - Implementations of the FFT
 
-- heat - Various implementations of the Heat Equation
+- tsd - Several implementations on the SDumont
