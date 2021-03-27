@@ -10,4 +10,4 @@ Notes, coures, useful links, miscellaneous documents
 
 - fft - Implementations of the FFT
 
-- tsd - Several implementations on the SDumont
+- tsd - Some implementations on the SDumont
