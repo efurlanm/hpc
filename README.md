@@ -1,13 +1,13 @@
 # My personal notes on HPC
 
-Notes, coures, useful links, miscellaneous documents
+Notes, snippets, links, miscellaneous and helpful documents
 
-- 372 - High Performance Processing course exercises
+* 372 - High Performance Processing course exercises
 
-- 399 - Massively Parallel Systems Programming course exercises
+* 399 - Massively Parallel Systems Programming course exercises
 
-- cluster - My home cluster
+* cluster - My home cluster
 
-- fft - Implementations of the FFT
+* fft - Implementations of the FFT
 
-- tsd - Some implementations on the SDumont
+* tsd - Some implementations on the SDumont
