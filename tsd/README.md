@@ -1,3 +1,3 @@
 # My personal notes
 
-Case studies run at SDumont
+Case studies and implementations run on SDumont
