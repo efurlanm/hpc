@@ -1,3 +1,3 @@
 # My personal notes
 
-Case studies and implementations run on SDumont
+Some implementations run on SDumont

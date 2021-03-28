@@ -8,4 +8,4 @@
 
 * fft - Implementations of the FFT
 
-* tsd - Some implementations on the SDumont
+* tsd - Some implementations run on SDumont
