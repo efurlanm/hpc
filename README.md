@@ -9,3 +9,5 @@
 * fft - Implementations of the FFT
 
 * tsd - Some implementations run on SDumont
+
+* annotations.ipynb - My personal annotations on SDumont
