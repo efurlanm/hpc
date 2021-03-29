@@ -1,6 +1,6 @@
 # My personal notes on HPC
 
-Most of the information about SDumont contained in this repository was obtained during graduate studies at INPE and in my project approved at LNCC, with funds from the government of Brazil.
+Most of the information about SDumont contained in this repository was obtained during graduate studies at INPE and in one project approved at LNCC, with funds from the government of Brazil.
 
 Files and directories
 
