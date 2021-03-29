@@ -1,7 +1,5 @@
 # My personal notes on HPC
 
-Most of the information about SDumont contained in this repository was obtained during graduate studies at INPE and in one project approved at LNCC, with funds from the government of Brazil.
-
 Files and directories
 
 * 372 - High Performance Processing course exercises
@@ -33,3 +31,8 @@ The above tutorial is part of the Cadase project, which aims to perform numerica
 Using SDumont
 
 * https://www.linea.gov.br/wp-content/uploads/lineadbfiles/apresentacao/17%20-%20Usando%20o%20santos%20dumont%20(16_9).pdf
+
+
+Acknowledgments
+
+Most of the information about SDumont contained in this repository was obtained during INPE's graduate program and in the project approved by the LNCC, with resources from the government of Brazil, without which this work would not be possible.
