@@ -12,13 +12,24 @@ Files and directories
 * annotations.ipynb - Some personal notes on SDumont
 
 
-## Useful links
+## Useful links (most in Portuguese)
 
-SDumont access tutorial with screenshots (in Portuguese)
+LNCC Santos Dumont supercomputer (SDumont)
+
+https://sdumont.lncc.br/
+
+SD Manual
+
+* https://sdumont.lncc.br/support_manual.php
+
+SDumont access tutorial with screenshots
 
 * https://sites.usp.br/cadase/recursos-computacionais/tutoriais-sdumont/
 
-The above tutorial is part of the Cadase project, which aims to perform numerical modeling and simulations, using HPC techniques, of applications belonging to the energy sector (in Portuguese)
+The above tutorial is part of the Cadase project, which aims to perform numerical modeling and simulations, using HPC techniques, of applications belonging to the energy sector
 
 * https://sites.usp.br/cadase
 
+Using SDumont
+
+* https://www.linea.gov.br/wp-content/uploads/lineadbfiles/apresentacao/17%20-%20Usando%20o%20santos%20dumont%20(16_9).pdf
