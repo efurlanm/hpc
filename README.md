@@ -35,4 +35,4 @@ Using SDumont
 
 Acknowledgments
 
-Most of the information about SDumont contained in this repository was obtained during INPE's graduate program and in the project approved by the LNCC, with resources from the government of Brazil, without which this work and others would not be possible.
+Most of the information about SDumont contained in this repository was obtained during INPE's graduate program and in the project approved by the LNCC, with resources from the government of Brazil, without which this work would not be possible.
