@@ -10,4 +10,4 @@
 
 * tsd - Some implementations run on SDumont
 
-* annotations.ipynb - My personal annotations on SDumont
+* annotations.ipynb - My personal notes on SDumont
