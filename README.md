@@ -1,6 +1,6 @@
 # My personal notes on HPC
 
-<img src="https://github.com/efurlanm/hpc/blob/master/img/under_construction.gif" style="float:right;">
+<img align="right" src="https://github.com/efurlanm/hpc/blob/master/img/under_construction.gif">
 Repository permanently under construction
 
 Files and directories
