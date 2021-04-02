@@ -4,7 +4,7 @@
 
 Repository permanently under construction
 
-Files and directories
+## Files and directories
 
 * 372 - High Performance Processing course exercises
 * 399 - Massively Parallel Systems Programming course exercises
