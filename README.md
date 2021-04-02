@@ -10,5 +10,6 @@ Repository permanently under construction
 * 399 - Massively Parallel Systems Programming course exercises
 * cluster - My home cluster
 * sd - Some implementations in SDumont
+* PAPI - Portable performance counter library & utilities
 
 
