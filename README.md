@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/efurlanm/hpc/blob/master/img/under_construction.gif">
+<img align="right" src="https://github.com/efurlanm/hpc/blob/master/img/construction100x90.gif">
 
 # My personal notes on HPC
 
