@@ -7,10 +7,10 @@ This repository is permanently under construction, so it is incomplete and its c
 
 ## Files and directories
 
-* 372 - High Performance Processing course exercises
-* 399 - Massively Parallel Systems Programming course exercises
+* 372 - Course exercises - High Performance Processing
+* 399 - Course exercises - Massively Parallel Systems Programming
 * cluster - My home cluster
-* sd - Some implementations in SDumont
+* sd - Some implementations I made on the SDumont
 * papi - Portable performance counter library and related infos
 
 
