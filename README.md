@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/efurlanm/hpc/blob/master/img/construction100x90.gif">
+<img align="right" src="https://github.com/efurlanm/hpc/blob/master/construction.gif">
 
 # My personal notes on HPC
 
@@ -13,4 +13,8 @@ This repository is permanently under construction, so it is incomplete and its c
 * sd - Some implementations I made on the SDumont
 * papi - Portable performance counter library and related infos
 
+
+## Useful links
+
+*
 
