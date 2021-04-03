@@ -1,6 +1,6 @@
 # My personal notes on PAPI
 
-Performance Application Programming Interface, primarily maintained by a group at the University of Tennessee
+Performance Application Programming Interface (PAPI), primarily maintained by a group at the University of Tennessee
 
 * http://icl.cs.utk.edu/papi/
 * Use of low-level performance counter hardware
@@ -17,3 +17,9 @@ Performance Application Programming Interface, primarily maintained by a group a
 ## SDumont note
 
 The purpose of running on SDumont is to learn how it works, and to see how it can be used in the approved project
+
+
+## Useful links
+
+* [Vienna Scientifc Cluster - Wiki - Papi](https://wiki.vsc.ac.at/doku.php?id=doku:papi)
+*

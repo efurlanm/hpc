@@ -7,14 +7,14 @@ This repository is permanently under construction, so it is incomplete and its c
 
 ## Files and directories
 
-* 372 - Course exercises - High Performance Processing
-* 399 - Course exercises - Massively Parallel Systems Programming
-* cluster - My home cluster
+* 372 - High Performance Processing course exercises
+* 399 - Massively Parallel Systems Programming course exercises
+* cluster - My personal home cluster
 * sd - Some implementations I made on the SDumont
 * papi - Portable performance counter library and related infos
+* python - My notes on Pyhton
 
 
 ## Useful links
 
 * RODRIGUES, E. R. [Dynamic Load-balancing](https://www.lume.ufrgs.br/bitstream/handle/10183/34776/000792718.pdf): A New Strategyfor Weather Forecast Models. - The thesis includes approaches such as compiler, processor, Thread, TLS, GDT, LDT, PAPI, Assembly, etc.
-
