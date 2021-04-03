@@ -9,7 +9,7 @@ Performance Application Programming Interface, primarily maintained by a group a
 * Used by tools like Periscope, Scalasca, TAU, VampirTrace, etc.
 
 
-## Python
+## Python PAPI
 
 * https://flozz.github.io/pypapi/
 
