@@ -16,5 +16,5 @@ This repository is permanently under construction, so it is incomplete and its c
 
 ## Useful links
 
-*
+* [RODRIGUES, E. R. Dynamic Load-balancing: A New Strategyfor Weather Forecast Models.](https://www.lume.ufrgs.br/bitstream/handle/10183/34776/000792718.pdf) - The thesis includes low-level compiler and processor approaches
 
