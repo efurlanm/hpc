@@ -16,5 +16,5 @@ This repository is permanently under construction, so it is incomplete and its c
 
 ## Useful links
 
-* RODRIGUES, E. R. [Dynamic Load-balancing](https://www.lume.ufrgs.br/bitstream/handle/10183/34776/000792718.pdf): A New Strategyfor Weather Forecast Models. - The thesis includes low-level compiler and processor approaches
+* RODRIGUES, E. R. [Dynamic Load-balancing](https://www.lume.ufrgs.br/bitstream/handle/10183/34776/000792718.pdf): A New Strategyfor Weather Forecast Models. - The thesis includes approaches such as compiler, processor, Thread, TLS, GDT, LDT, PAPI, Assembly, etc.
 
