@@ -11,6 +11,6 @@ This repository is permanently under construction, so it is incomplete and its c
 * 399 - Massively Parallel Systems Programming course exercises
 * cluster - My home cluster
 * sd - Some implementations in SDumont
-* papi - Portable performance counter library & utilities
+* papi - Portable performance counter library and related infos
 
 
