@@ -13,3 +13,7 @@ Performance Application Programming Interface, primarily maintained by a group a
 
 * https://flozz.github.io/pypapi/
 
+
+## SDumont note
+
+The purpose of running on SDumont is to learn how it works, and to see how it can be used in the approved project
