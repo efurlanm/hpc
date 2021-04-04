@@ -13,6 +13,7 @@ This repository is permanently under construction, so it is incomplete and its c
 * sd - Some implementations I made on the SDumont
 * papi - Portable performance counter library and related infos
 * python - My notes on Pyhton
+* assembly - My notes on Assembly
 
 
 ## Useful links
