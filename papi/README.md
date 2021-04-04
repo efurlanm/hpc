@@ -22,4 +22,3 @@ The purpose of running on SDumont is to learn how it works, and to see how it ca
 ## Useful links
 
 * [Vienna Scientifc Cluster - Wiki - Papi](https://wiki.vsc.ac.at/doku.php?id=doku:papi)
-*
