@@ -1,3 +1,5 @@
-# Some implementations of heat equation, on SDumont
+<img align="right" src="https://github.com/efurlanm/hpc/blob/master/construction.gif">
 
-Work in progress
+# Some implementations on the SDumont
+
+This repository is permanently under construction, so it is incomplete and its content is constantly changing.
