@@ -1,11 +1,12 @@
-<img align="right" src="https://github.com/efurlanm/hpc/blob/master/construction.gif">
+<img align="right" src="https://github.com/efurlanm/hpc/blob/master/img/construction.gif">
 
 # My personal notes on HPC
 
 This repository is permanently under construction, so it is incomplete and its content is constantly changing.
 
 
-## Files and directories
+
+## Directories
 
 * 372 - High Performance Processing course exercises
 * 399 - Massively Parallel Systems Programming course exercises
@@ -16,6 +17,7 @@ This repository is permanently under construction, so it is incomplete and its c
 * assembly - My notes on Assembly
 
 
+
 ## Useful links
 
-* RODRIGUES, E. R. [Dynamic Load-balancing](https://www.lume.ufrgs.br/bitstream/handle/10183/34776/000792718.pdf): A New Strategyfor Weather Forecast Models. - The thesis includes approaches such as compiler, processor, Thread, TLS, GDT, LDT, PAPI, Assembly, etc.
+* RODRIGUES, E. R. [Dynamic Load-balancing](https://www.lume.ufrgs.br/bitstream/handle/10183/34776/000792718.pdf): A New Strategyfor Weather Forecast Models - The thesis includes approaches such as compiler, processor, Thread, TLS, GDT, LDT, PAPI, Assembly, etc.
