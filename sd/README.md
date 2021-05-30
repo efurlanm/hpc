@@ -25,6 +25,11 @@ Using SDumont
 
 * https://www.linea.gov.br/wp-content/uploads/lineadbfiles/apresentacao/17%20-%20Usando%20o%20santos%20dumont%20(16_9).pdf
 
+My personal notes on accessing SDumont using JN
+
+* https://github.com/efurlanm/hpc/blob/master/sd/access.ipynb
+
+
 
 ## Thoughts
 
