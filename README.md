@@ -11,7 +11,7 @@ This repository is permanently under construction, so it is incomplete and its c
 * 372 - High Performance Processing course exercises
 * 399 - Massively Parallel Systems Programming course exercises
 * cluster - My personal home cluster
-* sd - Some implementations I made on the SDumont
+* sd - My notes on SDumont
 * papi - Portable performance counter library and related infos
 * python - My notes on Pyhton
 * assembly - My notes on Assembly
