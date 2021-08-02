@@ -20,4 +20,4 @@
 <img align="right" src="img/construction.gif">
 
 \
-This repository is permanently under construction, so it is incomplete and its content is constantly changing.
+This repository is permanently under construction, so its content changes constantly.
