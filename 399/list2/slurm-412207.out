@@ -1,0 +1,56 @@
+== CAP399/2019 - Lista 02 - Exerc 02 - Item (b) ==
+Número total de tarefas (ntasks): 8
+sdumont1411
+	linux-vdso.so.1 =>  (0x00007ffe443de000)
+	libpapi.so.5 => /opt/bullxde/perftools/papi/5.5.1.0/lib64/libpapi.so.5 (0x00002acc8e600000)
+	libm.so.6 => /usr/lib64/libm.so.6 (0x00002acc8e8bd000)
+	libmpifort.so.12 => /opt/intel/parallel_studio_xe_2019/intelpython3/lib/libmpifort.so.12 (0x00002acc8ebbf000)
+	libmpi.so.12 => /opt/intel/parallel_studio_xe_2019/intelpython3/lib/libmpi.so.12 (0x00002acc8ef7d000)
+	libdl.so.2 => /usr/lib64/libdl.so.2 (0x00002acc9010b000)
+	librt.so.1 => /usr/lib64/librt.so.1 (0x00002acc9030f000)
+	libpthread.so.0 => /usr/lib64/libpthread.so.0 (0x00002acc90517000)
+	libgcc_s.so.1 => /usr/lib64/libgcc_s.so.1 (0x00002acc90733000)
+	libc.so.6 => /usr/lib64/libc.so.6 (0x00002acc90949000)
+	libpfm.so.4 => /opt/bullxde/perftools/papi/5.5.1.0/lib64/libpfm.so.4 (0x00002acc90d16000)
+	/lib64/ld-linux-x86-64.so.2 (0x00002acc8e3dc000)
+	libfabric.so.1 => /opt/intel/parallel_studio_xe_2019/intelpython3/lib/libfabric/libfabric.so.1 (0x00002acc910f8000)
+Num.Counters=11
+PAPI_TOT_CYC, PAPI_TOT_INS, PAPI_FP_INS
+Num.Counters=11
+PAPI_TOT_CYC, PAPI_TOT_INS, PAPI_FP_INS
+Num.Counters=11
+PAPI_TOT_CYC, PAPI_TOT_INS, PAPI_FP_INS
+Num.Counters=11
+PAPI_TOT_CYC, PAPI_TOT_INS, PAPI_FP_INS
+Num.Counters=11
+PAPI_TOT_CYC, PAPI_TOT_INS, PAPI_FP_INS
+Num.Counters=11
+PAPI_TOT_CYC, PAPI_TOT_INS, PAPI_FP_INS
+Num.Counters=11
+PAPI_TOT_CYC, PAPI_TOT_INS, PAPI_FP_INS
+Num.Counters=11
+PAPI_TOT_CYC, PAPI_TOT_INS, PAPI_FP_INS
+[0] Apos primeira leitura dos counters: 56966616, 87002220, 29000209, x=0.000577
+[0] Apos segunda leitura dos counters: 227778954, 348000749, 116000719, x=0.000577
+[0] All done: x=0.000577
+[1] Apos primeira leitura dos counters: 113927977, 174002250, 58000438, x=0.000408
+[1] Apos segunda leitura dos counters: 455712996, 696000848, 232001591, x=0.000408
+[1] All done: x=0.000408
+[2] Apos primeira leitura dos counters: 170842901, 261002276, 87000681, x=0.000333
+[2] Apos segunda leitura dos counters: 683087678, 1044000949, 348002328, x=0.000333
+[2] All done: x=0.000333
+[3] Apos primeira leitura dos counters: 227792494, 348002304, 116000852, x=0.000289
+[3] Apos segunda leitura dos counters: 911188166, 1392001047, 464002949, x=0.000289
+[3] All done: x=0.000289
+[4] Apos primeira leitura dos counters: 284726449, 435002331, 145001042, x=0.000258
+[4] Apos segunda leitura dos counters: 1138788123, 1740001147, 580003636, x=0.000258
+[4] All done: x=0.000258
+[5] Apos primeira leitura dos counters: 341687288, 522002358, 174001132, x=0.000236
+[5] Apos segunda leitura dos counters: 1366934380, 2088001247, 696004752, x=0.000236
+[5] All done: x=0.000236
+[6] Apos primeira leitura dos counters: 398534905, 609002387, 203001358, x=0.000218
+[6] Apos segunda leitura dos counters: 1594282043, 2436001346, 812005313, x=0.000218
+[6] All done: x=0.000218
+[7] Apos primeira leitura dos counters: 455551098, 696002415, 232001536, x=0.000204
+[7] Apos segunda leitura dos counters: 1822279002, 2784001445, 928006008, x=0.000204
+[7] All done: x=0.000204

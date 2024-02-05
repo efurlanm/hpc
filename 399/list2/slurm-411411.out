@@ -1,0 +1,16 @@
+== CAP399/2019 - Lista 02 - Exerc 01 - Item (b) ==
+Número total de tarefas (ntasks): 1
+sdumont1121
+	linux-vdso.so.1 =>  (0x00007ffd611a3000)
+	libpapi.so.5 => /opt/bullxde/perftools/papi/5.5.1.0/lib64/libpapi.so.5 (0x00002ada2f189000)
+	libm.so.6 => /usr/lib64/libm.so.6 (0x00002ada2f446000)
+	libgcc_s.so.1 => /usr/lib64/libgcc_s.so.1 (0x00002ada2f748000)
+	libc.so.6 => /usr/lib64/libc.so.6 (0x00002ada2f95e000)
+	libdl.so.2 => /usr/lib64/libdl.so.2 (0x00002ada2fd2b000)
+	libpfm.so.4 => /opt/bullxde/perftools/papi/5.5.1.0/lib64/libpfm.so.4 (0x00002ada2ff2f000)
+	/lib64/ld-linux-x86-64.so.2 (0x00002ada2ef65000)
+Num.Counters=11
+PAPI_L2_TCM,PAPI_L3_TCM,PAPI_BR_MSP
+Apos primeira leitura dos counters: 356, 38, 72, x=0.001549
+Apos segunda leitura dos counters: 42, 1, 19, x=0.001549
+All done

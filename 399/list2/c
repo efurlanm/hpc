@@ -1,0 +1,2 @@
+ #!/bin/sh
+icc -O0 -o $1 $PAPI_INC $1.c $PAPI_LIB -lpapi -lm
