@@ -1,0 +1,51 @@
+sdumont1003
+sdumont1003
+	linux-vdso.so.1 =>  (0x00007ffc7c0da000)
+	libgfortran.so.5 => /scratch/app/gcc/8.3/lib64/libgfortran.so.5 (0x00002b8f9e0c2000)
+	libm.so.6 => /usr/lib64/libm.so.6 (0x00002b8f9e52d000)
+	libgcc_s.so.1 => /scratch/app/gcc/8.3/lib64/libgcc_s.so.1 (0x00002b8f9e82f000)
+	libquadmath.so.0 => /scratch/app/gcc/8.3/lib64/libquadmath.so.0 (0x00002b8f9ea47000)
+	libc.so.6 => /usr/lib64/libc.so.6 (0x00002b8f9ec87000)
+	libz.so.1 => /opt/intel/parallel_studio_xe_2019/intelpython3/lib/libz.so.1 (0x00002b8f9f054000)
+	/lib64/ld-linux-x86-64.so.2 (0x00002b8f9de9e000)
+	linux-vdso.so.1 =>  (0x00007ffc854b5000)
+	libgfortran.so.5 => /scratch/app/gcc/8.3/lib64/libgfortran.so.5 (0x00002b66e57ca000)
+	libm.so.6 => /usr/lib64/libm.so.6 (0x00002b66e5c35000)
+	libgcc_s.so.1 => /scratch/app/gcc/8.3/lib64/libgcc_s.so.1 (0x00002b66e5f37000)
+	libquadmath.so.0 => /scratch/app/gcc/8.3/lib64/libquadmath.so.0 (0x00002b66e614f000)
+	libc.so.6 => /usr/lib64/libc.so.6 (0x00002b66e638f000)
+	libz.so.1 => /opt/intel/parallel_studio_xe_2019/intelpython3/lib/libz.so.1 (0x00002b66e675c000)
+	/lib64/ld-linux-x86-64.so.2 (0x00002b66e55a6000)
+	linux-vdso.so.1 =>  (0x00007ffefff80000)
+	libgfortran.so.5 => /scratch/app/gcc/8.3/lib64/libgfortran.so.5 (0x00002b7350c4c000)
+	libm.so.6 => /usr/lib64/libm.so.6 (0x00002b73510b7000)
+	libgcc_s.so.1 => /scratch/app/gcc/8.3/lib64/libgcc_s.so.1 (0x00002b73513b9000)
+	libquadmath.so.0 => /scratch/app/gcc/8.3/lib64/libquadmath.so.0 (0x00002b73515d1000)
+	libc.so.6 => /usr/lib64/libc.so.6 (0x00002b7351811000)
+	libz.so.1 => /opt/intel/parallel_studio_xe_2019/intelpython3/lib/libz.so.1 (0x00002b7351bde000)
+	/lib64/ld-linux-x86-64.so.2 (0x00002b7350a28000)
+ Multiplicação:   0.580097020     s
+   902539023.00000000     
+   904518166.00000000     
+   906497309.00000000     
+ Permutação:      0.989695966     s
+   902539023.00000000     
+   904518166.00000000     
+   906497309.00000000     
+ Loop unrolling:  0.560727119     s
+   902539023.00000000     
+   904518166.00000000     
+   906497309.00000000     
+ Multiplicação:   5.5344000E-02 s
+   902539023.000000     
+   904518166.000000     
+   906497309.000000     
+ Permutação:      5.9212998E-02 s
+   902539023.000000     
+   904518166.000000     
+   906497309.000000     
+ Loop unrolling:  0.2821240     s
+   902539023.000000     
+   904518166.000000     
+   906497309.000000     
+srun: fatal: No command given to execute.

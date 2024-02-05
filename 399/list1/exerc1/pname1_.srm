@@ -1,0 +1,40 @@
+#!/bin/bash
+# Script baseado em:
+#   "6.3. Jobs paralelos (threads/OpenMP)
+#   Forma Geral de um Script"
+#   <https://sdumont.lncc.br/support_manual.php?pg=support>
+# Uso:
+#   $ sbatch pname.srm          (roda em prj)(anotar o my_job_no)
+#   $ squeue --job my_job_no    (verifica jobs)
+#   A saída "slurm-my_job_no.out" aparece em "scracth"
+
+#SBATCH --nodes=1               #Numero de Nós  (a)
+#SBATCH --ntasks-per-node=16    #Numero de tarefas por Nó  (b)
+#SBATCH --ntasks=16             #Numero total de tarefas MPI  (a x b)
+#SBATCH -p cpu_dev              #Fila (partition) a ser utilizada
+#SBATCH -J pname                #Nome do job
+#SBATCH --time=00:02:00         #Tempo limite
+#SBATCH --exclusive             #Utilizacao exclusiva dos nós durante o job
+
+#Exibe os nós alocados para o Job
+echo $SLURM_JOB_NODELIST
+nodeset -e $SLURM_JOB_NODELIST
+
+cd $SLURM_SUBMIT_DIR
+
+#Configura os compiladores com intel MPI PSXE
+source /scratch/app/modulos/intel-psxe-2019.sh
+#Configura I_MPI_PMI_LIBRARY para apontar para a biblioteca \
+#"Process Management Interface" do Slurm
+export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi.so
+
+#Configura o executavel
+# EXEC=/scratch/padinpe/____/pname
+
+#exibe informações sobre o executável (opcional)
+#   /usr/bin/ldd $EXEC
+
+#Dispara a execução
+#   $SLURM_NTASKS : Same as --ntasks
+#   $SLURM_CPUS_PER_TASK : Same as --cpus-per-task
+srun    -n $SLURM_NTASKS $EXEC

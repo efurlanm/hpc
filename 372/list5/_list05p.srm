@@ -1,0 +1,33 @@
+#!/bin/bash
+# $ sbatch list05.srm      (roda em prj)(anotar o my_job_no)
+# $ squeue --job my_job_no  (verifica jobs)
+# saída slurm-my_job_no.out em scracth
+# === CAP372 lista 05 - 2019-09-18 ===
+#SBATCH --nodes=1           # utilizar um único nó
+#SBATCH --ntasks-per-node=8 # ntasks(max tasks) invoked on each node
+#SBATCH --ntasks=8          # no total de processos MPI
+#SBATCH -p cpu_dev          # Fila (partition) a ser utilizada: 4 nós 4x24 cores
+#SBATCH -J list05p8         # Nome do job
+#SBATCH --time=00:02:00     # Altera o tempo limite para 2 minutos
+#SBATCH --exclusive         # Utilização exclusiva dos nós durante o job
+
+# Exibe os nós alocados para o Job
+echo $SLURM_JOB_NODELIST
+nodeset -e $SLURM_JOB_NODELIST
+
+cd $SLURM_SUBMIT_DIR
+
+# Config. compiladores p/ suite de compiladores da Intel e MPI compilado com Intel
+module load intel_psxe/2019
+
+# Configura o executável
+EXEC1=/scratch/padinpe/xxxxxxx.xxxxxxx/ilist05m512p8
+
+# exibe informações sobre o executável (opcional)
+#/usr/bin/ldd $EXEC1
+
+# procura por erros no arquivo batch antes de rodar
+#echo $SLURM_NTASKS $EXEC1
+
+# roda
+srun -n $SLURM_NTASKS $EXEC1
