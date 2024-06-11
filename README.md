@@ -1,5 +1,6 @@
-# My personal notes on HPC and related topics
+# My personal notes on Cluster, HPC, Parallel Processing, Containers, applications and related topics
 
+This repository contains some random notes that I take while studying the subject.
 
 ## Some directories
 
@@ -7,6 +8,7 @@
 * 399 - Massively Parallel Systems Programming course
 * cluster - My personal home cluster
 * papi - Portable performance counter library and related infos
+* SDumont - Subdirectory containing notes about the [Santos Dumont supercomputer]](https://sdumont.lncc.br/machine.php)
 
 
 ## Directories mirrored from ftp://ftp.liv.ac.uk/pub/
