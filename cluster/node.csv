@@ -1,0 +1,13 @@
+Nó |Núcleos|Threads|Processador |Instruções |Freq |Cache |RAM |GPU
+:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|-
+1|6|12|Core i7-9750H|avx2, sse4.2, fma3|4 GHz|12 MB L3|8 GB|NVIDIA GeForce GTX 1050 3GB
+2|4|8|Core i7-2630QM |avx, sse4.2|2.6 GHz|6 MB L3|8 GB|
+3|4|8|Core i7-2630QM |avx, sse4.2|2.6 GHz|6 MB L3|6 GB|
+4|2|4|Core i7-7500U |avx2, sse4.2, fma3|3.5 GHz|4 MB L3|16 GB |NVIDIA GeForce 940MX 4GB
+5|2|4|Core i7-3520M |avx, sse4.2|3.6 GHz|4 MB L3|8 GB |NVIDIA GeForce GT 635M 2GB
+6|2|2|Core2Duo T7200 |ssse3|2 GHz|4 MB L2|2 GB|
+7|2|2|Core2Duo T7200 |ssse3|2 GHz|4 MB L2|2 GB|
+8|2|2|Core2Duo T7250 |ssse3|2 GHz|2 MB L2|3 GB|
+9|4|4|AMD A6-1450|avx, sse4.2|1 GHz|2 MB L2|4 GB|Radeon HD 8250
+10|4|4|Allwinner H3 ARM Cortex-A7|ARMv7-A, Neon, VFPv4|1.2 GHz|0,5 MB L2|0,5 GB|Mali400 MP2 @ 600 Mhz
+master   |1|2|Atom N450 |ssse3|1.6 GHz|0,5 MB L2|2 GB|
