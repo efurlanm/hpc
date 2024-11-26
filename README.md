@@ -1,5 +1,7 @@
 # My personal notes on Cluster, HPC, Parallel Processing, Containers, applications and related topics
 
+*Last edited: 2024-11-26*
+
 This repository contains some random notes that I take while studying the subject.
 
 ## Some directories
@@ -40,7 +42,7 @@ Source: http://www.idris.fr/formations/mpi/
 
 ## Links of interest
 
-* RODRIGUES, E. R. [Dynamic Load-balancing](https://www.lume.ufrgs.br/bitstream/handle/10183/34776/000792718.pdf): A New Strategyfor Weather Forecast Models - The thesis includes approaches such as compiler, processor, Thread, TLS, GDT, LDT, PAPI, Assembly, etc.
+* RODRIGUES, E. R. [Dynamic Load-balancing](https://www.lume.ufrgs.br/bitstream/handle/10183/34776/000792718.pdf): A New Strategyfor Weather Forecast Models - the thesis includes approaches such as compiler, processor, Thread, TLS, GDT, LDT, PAPI, Assembly, etc.
 
 
 <br>
